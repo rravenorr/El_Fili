@@ -1,9 +1,9 @@
 [
 null,
-{"id":1,"expanded":false,"name":"Bapor Tabo","order":1,"parentId":0,"scrollX":856.5,"scrollY":564.75},
-{"id":2,"expanded":true,"name":"intro","order":6,"parentId":0,"scrollX":571,"scrollY":368.5,"quick":false},
-{"id":3,"expanded":true,"name":"Laguna","order":2,"parentId":0,"scrollX":1320,"scrollY":3047.25,"quick":false},
-{"id":4,"expanded":false,"name":"Jail","order":3,"parentId":3,"scrollX":761.3333333333334,"scrollY":491.3333333333333,"quick":false},
-{"id":5,"expanded":true,"name":"Manila_main","order":4,"parentId":0,"scrollX":772,"scrollY":2127.3333333333335,"quick":false},
-{"id":6,"expanded":false,"name":"Kagubatan","order":5,"parentId":0,"scrollX":856.5,"scrollY":1835.25,"quick":false}
+{"id":1,"expanded":false,"name":"Bapor Tabo","order":1,"parentId":0,"scrollX":591.2727272727273,"scrollY":387.2727272727273},
+{"id":2,"expanded":true,"name":"intro","order":6,"parentId":0,"scrollX":582.5454545454546,"scrollY":332.72727272727275,"quick":false},
+{"id":3,"expanded":true,"name":"Laguna","order":2,"parentId":0,"scrollX":1320,"scrollY":3068.727272727273,"quick":false},
+{"id":4,"expanded":false,"name":"Jail","order":3,"parentId":3,"scrollX":582.5454545454546,"scrollY":387.2727272727273,"quick":false},
+{"id":5,"expanded":true,"name":"Manila_main","order":4,"parentId":0,"scrollX":772.3636363636364,"scrollY":2127.2727272727275,"quick":false},
+{"id":6,"expanded":false,"name":"Kagubatan","order":5,"parentId":0,"scrollX":856.3636363636364,"scrollY":1834.909090909091,"quick":false}
 ]
