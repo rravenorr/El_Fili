@@ -1,5 +1,5 @@
 //=============================================================================
-// rmmz_scenes.js v1.7.0
+// rmmz_scenes.js v1.0.0
 //=============================================================================
 
 //-----------------------------------------------------------------------------
@@ -327,10 +327,6 @@ Scene_Boot.prototype.start = function() {
     } else if (DataManager.isEventTest()) {
         DataManager.setupEventTest();
         SceneManager.goto(Scene_Map);
-    } else if (DataManager.isTitleSkip()) {
-        this.checkPlayerLocation();
-        DataManager.setupNewGame();
-        SceneManager.goto(Scene_Map);
     } else {
         this.startNormalGame();
     }
@@ -349,7 +345,6 @@ Scene_Boot.prototype.resizeScreen = function() {
     const screenWidth = $dataSystem.advanced.screenWidth;
     const screenHeight = $dataSystem.advanced.screenHeight;
     Graphics.resize(screenWidth, screenHeight);
-    Graphics.defaultScale = this.screenScale();
     this.adjustBoxSize();
     this.adjustWindow();
 };
@@ -364,19 +359,10 @@ Scene_Boot.prototype.adjustBoxSize = function() {
 
 Scene_Boot.prototype.adjustWindow = function() {
     if (Utils.isNwjs()) {
-        const scale = this.screenScale();
-        const xDelta = Graphics.width * scale - window.innerWidth;
-        const yDelta = Graphics.height * scale - window.innerHeight;
+        const xDelta = Graphics.width - window.innerWidth;
+        const yDelta = Graphics.height - window.innerHeight;
         window.moveBy(-xDelta / 2, -yDelta / 2);
         window.resizeBy(xDelta, yDelta);
-    }
-};
-
-Scene_Boot.prototype.screenScale = function() {
-    if ("screenScale" in $dataSystem.advanced) {
-        return $dataSystem.advanced.screenScale;
-    } else {
-        return 1;
     }
 };
 
@@ -673,7 +659,7 @@ Scene_Map.prototype.create = function() {
     if (this._transfer) {
         DataManager.loadMapData($gamePlayer.newMapId());
         this.onTransfer();
-    } else {
+    } else if (!$dataMap || $dataMap.id !== $gameMap.mapId()) {
         DataManager.loadMapData($gameMap.mapId());
     }
 };
@@ -1523,8 +1509,7 @@ Scene_ItemBase.prototype.itemTargetActors = function() {
 };
 
 Scene_ItemBase.prototype.canUse = function() {
-    const user = this.user();
-    return user && user.canUse(this.item()) && this.isItemEffectsValid();
+    return this.user().canUse(this.item()) && this.isItemEffectsValid();
 };
 
 Scene_ItemBase.prototype.isItemEffectsValid = function() {
@@ -1602,8 +1587,6 @@ Scene_Item.prototype.createItemWindow = function() {
     if (!this._categoryWindow.needsSelection()) {
         this._itemWindow.y -= this._categoryWindow.height;
         this._itemWindow.height += this._categoryWindow.height;
-        this._itemWindow.createContents();
-        this._categoryWindow.update();
         this._categoryWindow.hide();
         this._categoryWindow.deactivate();
         this.onCategoryOk();
@@ -2365,8 +2348,7 @@ Scene_Load.prototype.reloadMapIfUpdated = function() {
         const mapId = $gameMap.mapId();
         const x = $gamePlayer.x;
         const y = $gamePlayer.y;
-        const d = $gamePlayer.direction();
-        $gamePlayer.reserveTransfer(mapId, x, y, d, 0);
+        $gamePlayer.reserveTransfer(mapId, x, y);
         $gamePlayer.requestMapReload();
     }
 };
