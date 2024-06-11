@@ -1,12 +1,11 @@
 [
 null,
-{"id":1,"expanded":false,"name":"Bapor Tabo","order":1,"parentId":0,"scrollX":571,"scrollY":368.5},
-{"id":2,"expanded":true,"name":"intro","order":9,"parentId":0,"scrollX":1245.8181818181818,"scrollY":821.4545454545455,"quick":false},
-{"id":3,"expanded":true,"name":"Laguna","order":2,"parentId":0,"scrollX":1263,"scrollY":1225.5,"quick":false},
-{"id":4,"expanded":false,"name":"Jail","order":3,"parentId":3,"scrollX":1245.8181818181818,"scrollY":804,"quick":false},
-{"id":5,"expanded":true,"name":"Manila_main","order":4,"parentId":0,"scrollX":1263.2727272727273,"scrollY":2128.3636363636365,"quick":false},
-{"id":6,"expanded":false,"name":"Kagubatan","order":5,"parentId":0,"scrollX":761,"scrollY":1578.5,"quick":false},
-{"id":7,"expanded":true,"name":"kabayanan","order":6,"parentId":0,"scrollX":2768,"scrollY":624,"quick":false},
-{"id":8,"expanded":false,"name":"Alahasan","order":7,"parentId":7,"scrollX":761.3333333333334,"scrollY":491.3333333333333,"quick":false},
-{"id":9,"expanded":false,"name":"Simbahan Area","order":8,"parentId":0,"scrollX":943,"scrollY":368.5,"quick":false}
+{"id":1,"expanded":false,"name":"Bapor Tabo","order":1,"parentId":0,"scrollX":856.5,"scrollY":552.75},
+{"id":2,"expanded":true,"name":"intro","order":8,"parentId":0,"scrollX":1245.8181818181818,"scrollY":821.4545454545455,"quick":false},
+{"id":3,"expanded":true,"name":"Laguna","order":2,"parentId":0,"scrollX":1263.2727272727273,"scrollY":1225.0909090909092,"quick":false},
+{"id":4,"expanded":false,"name":"Jail","order":3,"parentId":3,"scrollX":1165.0909090909092,"scrollY":666.5454545454546,"quick":false},
+{"id":5,"expanded":true,"name":"Manila_main","order":4,"parentId":0,"scrollX":1165.0909090909092,"scrollY":751.6363636363636,"quick":false},
+{"id":6,"expanded":false,"name":"Kagubatan","order":5,"parentId":0,"scrollX":761.3333333333334,"scrollY":1578,"quick":false},
+{"id":7,"expanded":true,"name":"kabayanan","order":6,"parentId":0,"scrollX":1189.3333333333333,"scrollY":803.3333333333334,"quick":false},
+{"id":8,"expanded":false,"name":"Alahasan","order":7,"parentId":7,"scrollX":761.3333333333334,"scrollY":491.3333333333333,"quick":false}
 ]
