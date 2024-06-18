@@ -10,10 +10,10 @@ null,
 {"id":8,"expanded":false,"name":"Alahasan","order":9,"parentId":7,"scrollX":613.0909090909091,"scrollY":382.3636363636364,"quick":false},
 {"id":9,"expanded":false,"name":"underground jail","order":4,"parentId":4,"scrollX":749.3333333333334,"scrollY":478,"quick":false},
 {"id":10,"expanded":false,"name":"simbahan_inside","order":5,"parentId":5,"scrollX":749.3333333333334,"scrollY":467.3333333333333,"quick":false},
-{"id":11,"expanded":false,"name":"pansiteria","order":11,"parentId":0,"scrollX":749.3333333333334,"scrollY":467.3333333333333,"quick":false},
+{"id":11,"expanded":false,"name":"pansiteria","order":11,"parentId":0,"scrollX":638.5,"scrollY":361.5,"quick":false},
 {"id":12,"expanded":true,"name":"Patungo sa Bundok","order":14,"parentId":0,"scrollX":683.4,"scrollY":478.2,"quick":false},
 {"id":13,"expanded":false,"name":"Pagamutan","order":10,"parentId":7,"scrollX":749.3333333333334,"scrollY":478,"quick":false},
-{"id":14,"expanded":true,"name":"Kampo1","order":15,"parentId":12,"scrollX":1306.2,"scrollY":1240.2,"quick":false},
-{"id":15,"expanded":true,"name":"Garrison","order":12,"parentId":0,"scrollX":1684.5,"scrollY":1051.5,"quick":false},
-{"id":16,"expanded":false,"name":"Garrison_inside","order":13,"parentId":15,"scrollX":673.8,"scrollY":529.8,"quick":false}
+{"id":14,"expanded":true,"name":"Kampo1","order":15,"parentId":12,"scrollX":1507.5,"scrollY":925.5,"quick":false},
+{"id":15,"expanded":true,"name":"Garrison","order":12,"parentId":0,"scrollX":1481.5,"scrollY":1349.5,"quick":false},
+{"id":16,"expanded":false,"name":"Garrison_inside","order":13,"parentId":15,"scrollX":561.5,"scrollY":421.5,"quick":false}
 ]
