@@ -14,11 +14,11 @@ null,
 {"id":12,"expanded":true,"name":"Patungo sa Bundok","order":18,"parentId":0,"scrollX":499.55555555555554,"scrollY":630.6666666666666,"quick":false},
 {"id":13,"expanded":false,"name":"Pagamutan","order":10,"parentId":7,"scrollX":816,"scrollY":640,"quick":false},
 {"id":14,"expanded":true,"name":"Kampo1","order":19,"parentId":12,"scrollX":1544,"scrollY":930,"quick":false},
-{"id":15,"expanded":true,"name":"Garrison","order":16,"parentId":0,"scrollX":1589.3333333333333,"scrollY":3404,"quick":false},
+{"id":15,"expanded":true,"name":"Garrison","order":16,"parentId":0,"scrollX":1582.2222222222222,"scrollY":3528.4444444444443,"quick":false},
 {"id":16,"expanded":false,"name":"Garrison_inside","order":17,"parentId":15,"scrollX":562,"scrollY":558.5,"quick":false},
 {"id":17,"expanded":false,"name":"Tutorial","order":21,"parentId":2,"scrollX":562,"scrollY":1169.5,"quick":false},
-{"id":18,"expanded":true,"name":"Wedding_venue","order":11,"parentId":0,"scrollX":3892.4444444444443,"scrollY":2687.5555555555557,"quick":false},
+{"id":18,"expanded":true,"name":"Wedding_venue","order":11,"parentId":0,"scrollX":3892.4444444444443,"scrollY":2829.777777777778,"quick":false},
 {"id":19,"expanded":false,"name":"wedding_venue_underground","order":12,"parentId":18,"scrollX":508.44444444444446,"scrollY":624.4444444444445,"quick":false},
 {"id":20,"expanded":true,"name":"wedding_venue_inside_2","order":14,"parentId":18,"scrollX":508.44444444444446,"scrollY":732.8888888888889,"quick":false},
-{"id":21,"expanded":false,"name":"wedding_venue_inside_1","order":13,"parentId":18,"scrollX":508.44444444444446,"scrollY":364,"quick":false}
+{"id":21,"expanded":false,"name":"wedding_venue_inside_1","order":13,"parentId":18,"scrollX":508.44444444444446,"scrollY":737.3333333333334,"quick":false}
 ]
